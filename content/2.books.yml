@@ -1,0 +1,10 @@
+title: Luther Books
+description: Lutheran books for lutherans
+navigation.icon: i-heroicons-credit-card
+
+faq:
+  title: Guide to salvation
+  items:
+    - label: Pray before you read
+      content: Don't start to read before you have prayed that God will open your heart and mind.
+      defaultOpen: false

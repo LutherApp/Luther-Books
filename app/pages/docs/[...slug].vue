@@ -23,6 +23,7 @@ useSeoMeta({
 
 defineOgImage({
   component: 'Saas',
+  // @ts-expect-error Object literal may only specify known properties, and 'title' does not exist in type 'OgImageOptions<"NuxtSeo"> | OgImagePrebuilt'.
   title: page.value.title,
   description: page.value.description
 })

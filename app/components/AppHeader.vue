@@ -8,7 +8,7 @@ const links = [{
   to: '/docs'
 }, {
   label: 'Pricing',
-  to: '/pricing'
+  to: '/books'
 }, {
   label: 'Blog',
   to: '/blog'
@@ -18,8 +18,8 @@ const links = [{
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="SaaS"
+      Luther Books <UBadge
+        label="Library"
         variant="subtle"
         class="mb-0.5"
       />

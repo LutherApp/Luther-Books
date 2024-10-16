@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# fix error msg in GitHub Desktop on all files
+# source: https://github.com/desktop/desktop/issues/18225
+* text eol=lf

@@ -1,27 +1,13 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
-
-# Node dependencies
+# No need to have the following files on GitHub and Vercel.
+# Standard
 node_modules
-
-# Logs
-logs
-*.log
-
-# Misc
-.DS_Store
-.fleet
-.idea
-
-# Local env files
+*.log*
 .env
-.env.*
-!.env.example
 
-# VSC
-.history
+# Using .npmrc in localhost to publish package to GitHub
+.npmrc
+
+# dev, build and generate
+.nuxt
+.output
+dist

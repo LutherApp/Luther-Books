@@ -51,7 +51,7 @@ useSeoMeta({
         </UBadge>
       </template>
     </ULandingHero>
-
+    <!--
     <ULandingSection class="!pt-0">
       <ImagePlaceholder />
     </ULandingSection>
@@ -104,6 +104,19 @@ useSeoMeta({
         v-bind="page.cta"
         class="bg-gray-100/50 dark:bg-gray-800/50"
       />
+    </ULandingSection>
+    -->
+    <ULandingSection
+      :title="page.projects.title"
+      :links="page.projects.links"
+    >
+      <UPageGrid>
+        <ULandingCard
+          v-for="(item, index) of page.projects.items"
+          :key="index"
+          v-bind="item"
+        />
+      </UPageGrid>
     </ULandingSection>
   </div>
 </template>
