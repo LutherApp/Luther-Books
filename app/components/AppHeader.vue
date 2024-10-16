@@ -7,7 +7,7 @@ const links = [{
   label: 'Docs',
   to: '/docs'
 }, {
-  label: 'Pricing',
+  label: 'Books',
   to: '/books'
 }, {
   label: 'Blog',

@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: ['@nuxt/ui-pro'],
+  extends: [
+    '@nuxt/ui-pro'
+  ],
 
   modules: [
     '@nuxt/content',
@@ -25,7 +27,7 @@ export default defineNuxtConfig({
   colorMode: {
     disableTransition: true
   },
-
+  /*
   nitro: {
     prerender: {
       routes: [
@@ -35,10 +37,12 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-
+  */
   routeRules: {
     '/api/search.json': { prerender: true },
-    '/docs': { redirect: '/docs/getting-started', prerender: false }
+    '/docs': { redirect: '/docs/getting-started', prerender: false },
+    "/": { prerender: true },
+    "/blog/**": { prerender: true },
   },
 
   devtools: {

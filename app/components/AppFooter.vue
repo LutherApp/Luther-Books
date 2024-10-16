@@ -4,33 +4,13 @@ const links = [{
   children: [{
     label: 'Help center'
   }, {
-    label: 'Docs'
+    label: 'Docs',
+    to: '/docs/getting-started'
   }, {
-    label: 'Roadmap'
+    label: 'Books',
+    to: '/books'
   }, {
     label: 'Changelog'
-  }]
-}, {
-  label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
-}, {
-  label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
   }]
 }]
 
