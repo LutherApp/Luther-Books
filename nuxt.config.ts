@@ -27,22 +27,20 @@ export default defineNuxtConfig({
   colorMode: {
     disableTransition: true
   },
-  /*
+
   nitro: {
     prerender: {
       routes: [
         '/',
-        '/docs'
+        // '/docs'
       ],
       crawlLinks: true
     }
   },
-  */
+
   routeRules: {
     '/api/search.json': { prerender: true },
-    '/docs': { redirect: '/docs/getting-started', prerender: false },
-    "/": { prerender: true },
-    "/blog/**": { prerender: true },
+    // '/docs': { redirect: '/docs/getting-started', prerender: false }
   },
 
   devtools: {
