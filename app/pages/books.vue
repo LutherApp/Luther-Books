@@ -129,16 +129,6 @@ const filterRows = computed(() => {
 
 <template>
   <div v-if="page">
-    <ULandingSection
-      :title="page.title"
-    >
-      <ULandingFAQ
-        :items="page.faq.items"
-        multiple
-        class="max-w-4xl mx-auto"
-      />
-    </ULandingSection>
-
     <ULandingSection>
       <UInput
         v-model="q"

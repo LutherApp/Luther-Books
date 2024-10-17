@@ -19,7 +19,7 @@ hero:
       icon: i-heroicons-book-open-solid
       size: xl
       color: gray
-      to: https://github.com/LutherApp/Luther-Books
+      to: https://luther-books.vercel.app/books
       target: _blank
 projects:
   title: 'Luther Books'

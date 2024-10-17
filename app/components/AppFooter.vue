@@ -1,14 +1,15 @@
 <script setup lang="ts">
 const links = [{
-  label: 'Resources',
+  label: 'Menu',
   children: [{
-    label: 'Help center'
-  }, {
     label: 'Docs',
     to: '/docs/getting-started'
   }, {
     label: 'Books',
     to: '/books'
+  }, {
+    label: 'blog',
+    to: '/blog'
   }, {
     label: 'Changelog'
   }]

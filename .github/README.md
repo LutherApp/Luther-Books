@@ -22,6 +22,6 @@ The goal is apps with responsive design for better readability and user-friendli
 
 [^5]: [In him was life, and that life was the light of men.](https://biblehub.com/crossref/john/1-4.htm)
 
-[^6]: I'm doing this first for my self and my own needs. 
+[^6]: Searching for Lutheran writings will be much better here than anywhere else on the internet.
 
 [^7]: For most of Luther's writings that are published online, you need a desktop computer, because they are difficult to read on mobile phones.
