@@ -42,6 +42,33 @@ if (post.value.image?.src) {
     headline: 'Blog'
   })
 }
+
+const meta1 = document.createElement('meta')
+meta1.setAttribute('property', 'og:url')
+meta1.content = 'https://kirkepostille.vercel.app'
+
+const meta2 = document.createElement('meta')
+meta2.setAttribute('property', 'og:type')
+meta2.content = 'article'
+
+const meta3 = document.createElement('meta')
+meta3.setAttribute('property', 'og:title')
+meta3.content = 'Title testing'
+
+const meta4 = document.createElement('meta')
+meta4.setAttribute('property', 'og:description')
+meta4.content = 'Testing description for social media'
+
+const meta5 = document.createElement('meta')
+meta5.setAttribute('property', 'og:image')
+meta5.content = '/social-card.png'
+
+const viewport = document.querySelector('meta[name="viewport"]')
+viewport.after(meta5)
+viewport.after(meta4)
+viewport.after(meta3)
+viewport.after(meta2)
+viewport.after(meta1)
 </script>
 
 <template>
