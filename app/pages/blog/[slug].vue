@@ -42,7 +42,7 @@ if (post.value.image?.src) {
     headline: 'Blog'
   })
 }
-
+/*
 const meta1 = document.createElement('meta')
 meta1.setAttribute('property', 'og:url')
 meta1.content = 'https://kirkepostille.vercel.app'
@@ -69,6 +69,7 @@ viewport.after(meta4)
 viewport.after(meta3)
 viewport.after(meta2)
 viewport.after(meta1)
+*/
 </script>
 
 <template>
