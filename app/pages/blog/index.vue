@@ -40,9 +40,13 @@ defineOgImage({
       v-bind="page"
       class="py-[50px]"
     />
-
     <UPageBody>
       <UBlogList>
+        <!--
+          @vue-expect-error The variable authors throws four errors;
+          3 x Type 'bla bla bla' is not assignable to type 'bla bla bla'.
+          1 x Property 'avatar' is optional in type 'bla bla bla' but required in type 'bla bla bla'.
+         -->
         <UBlogPost
           v-for="(post, index) in posts"
           :key="index"
