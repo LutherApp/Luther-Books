@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         '/',
         // '/docs'
       ],
-      crawlLinks: true
+      // crawlLinks: true
     }
   },
 
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: false,
-    typeCheck: true
+    // typeCheck: true
   },
 
   future: {

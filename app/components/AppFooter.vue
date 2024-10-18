@@ -8,7 +8,7 @@ const links = [{
     label: 'Books',
     to: '/books'
   }, {
-    label: 'blog',
+    label: 'Blog',
     to: '/blog'
   }, {
     label: 'Changelog'
