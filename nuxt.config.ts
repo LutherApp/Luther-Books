@@ -32,7 +32,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
-        '/docs'
+        '/docs',
+        '/blog'
       ],
       crawlLinks: true
     }
@@ -40,7 +41,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/api/search.json': { prerender: true },
-    // '/docs': { redirect: '/docs/getting-started', prerender: false }
+    '/docs': { redirect: '/docs/getting-started', prerender: false }
   },
 
   devtools: {
